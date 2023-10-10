@@ -1,0 +1,149 @@
+/* https://coolors.co/palette/c98564-e76205-f78d47-f6c18b-c46116-b6edf6-e6a499 
+
+or
+https://coolors.co/cb9b8c-e3733e-e99b7a-eec4aa-d47241-d4e5e9-e4b9b4
+
+https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+
+<a href="https://www.freepik.com/free-vector/wood-vector-texture-template-pattern-seamless-material-hardwood-floor-natural-light-parquet-vector-illustration_11059494.htm#query=wood%20grain&position=0&from_view=keyword&track=ais">Image by macrovector</a> on Freepik
+
+*/
+
+.zigzag {
+    background:
+    linear-gradient(63deg, #d47241 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, #d47241 78%),
+    linear-gradient(63deg, transparent 34%, #d47241 38%, #d47241 58%, transparent 62%),
+    #DDA15E;
+    background-size: 64px 128px;
+}
+
+.weave {
+    background:
+    linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+}
+
+
+.shadow-rounded {
+    box-shadow: 0px 0px 12px #7c7b7b92;
+    border-radius: 0.5rem;
+}
+
+.forest-gradient {
+    background: #5A3F37;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card-body {
+    /* background-color: #fff; */
+    min-height: 30vh;
+    /* background-color: #FFF8D6; */
+}
+
+table {
+    margin-top: 1%;
+}
+
+/* .card {
+    min-height: 500px;
+} */
+
+.card-footer {
+    /* background-color: #617A55; */
+}
+
+.card-links {
+    /* border: 0px 1px solid #6f1e1e; */
+    text-align: center;
+    /* border-radius: 0.3rem; */
+    background-color: #617A55;
+    color: #fff;
+}
+
+.card-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-links a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* .row {
+    margin: 0;
+} */
+
+.reservation-btn-group {
+    /* display: flex; */
+    /* padding: 1%; */
+    /* width: 100%; */
+    /* margin: 1rem 0; */
+}
+
+.carousel-item {
+    height: 50%;
+}
+
+.figure-img {
+    max-width: 720px;
+    margin: 0;
+    
+}
+
+
+
+.section-heading {
+    /* border-bottom: 10px solid #E86A33; */
+    margin: 0;
+    padding: 0;
+}
+
+.panel {
+    /* max-height: 100vh; */
+    /* background-color: #617A55; */
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+body {
+    background-color: #fff8d63b;
+}
+
+.btn-amenities {
+    background-color: #263A29;
+    color: #fff;
+}
+
+.btn-amenities:hover {
+    /* background-color: #263A29; */
+    color: rgb(33, 37, 41);
+    border: 1px solid #263A29;
+    box-shadow: 0px 0px 12px #7c7b7b92;
+    /* border-radius: 0.5rem; */
+}
+
+.navbar {
+    background-color: #263A29;
+    color: #E86A33;
+}
+
+.nav-link:hover {
+    /* color: #E86A33; */
+    text-decoration: underline;
+}
+
+.locHeading {
+    border-bottom: 10px solid #E86A33;
+    margin-top: 1rem;
+}
+
+
+
+
+
