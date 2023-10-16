@@ -113,6 +113,7 @@ table {
     /* background-color: #617A55; */
     margin-bottom: 1rem;
     margin-top: 3rem;
+    padding: 0;
 }
 
 body {
@@ -174,6 +175,16 @@ body {
     margin-top: 1rem;
 }
 
+main {
+    min-width: 460px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .card {
+        margin: none;
+    }
+}
 
 
 
