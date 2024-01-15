@@ -46,220 +46,198 @@
             </div>
         </div>
     </nav>
-    <!-- Carousel -->
-    <!-- <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="First slide"></li>
-            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img src="/images/shady-pines-1.jpeg" class="w-100 d-block" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/shady-pines-2.jpeg" class="w-100 d-block" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/shady-pines-3.webp" class="w-100 d-block" alt="Third slide">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div> -->
+
 
     <main class="container-fluid">
-        <section class="container-fluid panel">
-            <h3 class="display-5 locHeading" id="pineHeading">Pinetop-Lakeside
-                <span>
-                    <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#pinetopMap"
-                        aria-expanded="false" aria-controls="pinetopMap">
-                        <span class="material-symbols-outlined map-icon">
-                            map
-                        </span>
-                    </button>
-                </span>
+        <section class="panel">
+            <h3 class="display-4 locHeading d-flex justify-content-between" id="pineHeading">Pinetop-Lakeside
+                <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#pinetopMap"
+                    aria-expanded="false" aria-controls="pinetopMap">
+                    <span class="material-symbols-outlined map-icon">
+                        map
+                    </span>
+                </button>
             </h3>
+            <!-- <div class="collapse" id="pinetopMap">
+                <iframe class="map shadow" width="100%" height="450" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-VRVvHJKIcRiOivLwt9hGA&key=AIzaSyCe74KSNaGnsKigeWq1UJ1eFDt3gbESEGk"></iframe>
+            </div> -->
+            </div>
+            <!-- Description -->
+            <div class="col-lg">
+                <div class="card h-100  shadow rounded">
+
+                    <img src="images/png/little-bear-exterior.png" class="card-img-top"
+                        alt="An external shot of the Shady Pines location. A large A-frame cabin with deck, surrounded by trees.">
+
+                    <h5 class="card-header text-bg-success">Short
+                        &
+                        Long Term Available!</h5>
+                    <div class="card-body">
+                        <h4 class="card-title">Little Bear Cabin</h4>
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                    aria-selected="true">Description</button>
+                                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                                    aria-controls="v-pills-profile" aria-selected="false">Amenities</button>
+                            </div>
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab" tabindex="0">
+                                    <p class="card-text">
+                                        Indulge in the tranquility of escaping to the pines without giving up the
+                                        comforts of
+                                        home.
+                                        This 2 bed, 2
+                                        bath cabin is situated on a wooded acre nestled in the Lakeside Summer Homes
+                                        community
+                                        surrounded by
+                                        pine trees.
+                                    </p>
+                                    <p class="card-text">
+                                        Snuggle up next to the wood-burning fireplace and enjoy the mountain sights and
+                                        smells
+                                        from
+                                        the front porch.
+                                    </p>
+                                    <p class="card-text"> Enjoy nature's beauty while being close to restaurants,
+                                        shopping,
+                                        golfing,
+                                        and
+                                        activities like horseback riding and skiing.</p>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab" tabindex="0">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" colspan="3">What we offer:</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="">
+                                                <td>Mountain view</td>
+                                                <td>Kitchen</td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>Wifi</td>
+                                                <td>Free parking on premises</td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>Private patio or balcony</td>
+                                                <td>Free washer/dryer in unit</td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>TV</td>
+                                                <td>Central air conditioning</td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>
+                                                    Essentials
+                                                    <p class="text-muted small">Towels, bed sheets, soap, and toilet
+                                                        paper
+                                                    </p>
+                                                </td>
+                                                <td>Security cameras on property</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <p class="card-text">
+                            Indulge in the tranquility of escaping to the pines without giving up the comforts of
+                            home.
+                            This 2 bed, 2
+                            bath cabin is situated on a wooded acre nestled in the Lakeside Summer Homes community
+                            surrounded by
+                            pine trees.
+                        </p>
+                        <p class="card-text">
+                            Snuggle up next to the wood-burning fireplace and enjoy the mountain sights and smells
+                            from
+                            the front porch.
+                        </p>
+                        <p class="card-text"> Enjoy nature's beauty while being close to restaurants, shopping,
+                            golfing,
+                            and
+                            activities like horseback riding and skiing.</p> -->
+
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <!-- Amenities -->
+
+                        <!-- <button class="btn btn-green" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#lb-amenities" aria-expanded="false" aria-controls="contentId">
+                            Show Amenities
+                        </button> -->
+
+                    </div>
+                    <div class="p-2 card-links">
+                        <a class="card-link" href="https://www.airbnb.com/rooms/48397659">Airbnb</a>
+                        <a class="card-link" href="https://www.vrbo.com/2302987">Vrbo</a>
+                    </div>
+                    <div class="table-responsive collapse" id="lb-amenities">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col" colspan="3">What we offer:</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td>Mountain view</td>
+                                    <td>Kitchen</td>
+                                </tr>
+                                <tr class="">
+                                    <td>Wifi</td>
+                                    <td>Free parking on premises</td>
+                                </tr>
+                                <tr class="">
+                                    <td>Private patio or balcony</td>
+                                    <td>Free washer/dryer in unit</td>
+                                </tr>
+                                <tr class="">
+                                    <td>TV</td>
+                                    <td>Central air conditioning</td>
+                                </tr>
+                                <tr class="">
+                                    <td>
+                                        Essentials
+                                        <p class="text-muted small">Towels, bed sheets, soap, and toilet paper
+                                        </p>
+                                    </td>
+                                    <td>Security cameras on property</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="btn btn-map w-100" type="button" data-bs-toggle="collapse" data-bs-target="#pinetopMap"
+                aria-expanded="false" aria-controls="pinetopMap">
+                <p>Show Map</p>
+                <span class="material-symbols-outlined map-icon">
+                    map
+                </span>
+            </button>
             <div class="collapse" id="pinetopMap">
                 <iframe class="map shadow" width="100%" height="450" loading="lazy" allowfullscreen
                     src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM-VRVvHJKIcRiOivLwt9hGA&key=AIzaSyCe74KSNaGnsKigeWq1UJ1eFDt3gbESEGk"></iframe>
-            </div>
-            <!-- Shady Pines -->
-            <!-- Description -->
-            <div class="row">
-                <div class="col-lg">
-                    <div class="card h-100 shadow rounded">
-
-                        <img src="images/png/shady-pines-exterior.png" class="card-img-top"
-                            alt="An external shot of the Shady Pines location. A large A-frame cabin with deck, surrounded by trees.">
-                        <div class="card-body">
-                            <h4 class="card-title">Shady Pines Cabin</h4>
-                            <p class="card-text">
-                                Relax with the whole family at this adorable two-story cabin. Enjoy the serenity of
-                                escaping
-                                to
-                                the
-                                pines
-                                without giving up the comforts of home. This 3 bed, 2 bath cabin is located on a wooded
-                                half acre
-                                situated in
-                                the
-                                Moonridge Mountain Estates community near Billy Creek.
-                            </p>
-                            <p class="card-text">
-                                Delight in the mountain sights and smells from
-                                the
-                                spacious front deck.
-                                Enjoy the beauty of nature while being close to restaurants, shopping, golfing
-                                and
-                                activities like hiking, horseback riding and skiing.
-                            </p>
-
-                        </div>
-                        <div class="card-footer text-center">
-                            <button class="btn btn-green" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#shady-amenities" aria-expanded="false" aria-controls="contentId">
-                                Show Amenities
-                            </button>
-                        </div>
-                        <!-- Shady Pines Links -->
-                        <div class="p-2 card-links">
-                            <a class="card-link" href="https://airbnb.com/h/shady-pines-cabin">Airbnb</a>
-                            <a class="card-link" href="https://www.vrbo.com/3540588">Vrbo</a>
-                        </div>
-                        <!-- Amenities -->
-                        <div class="table-responsive collapse" id="shady-amenities">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" colspan="3">What we offer:</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="">
-                                        <td>Mountain view</td>
-                                        <td>Kitchen</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>Wifi</td>
-                                        <td>Free parking on premises</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>Free washer In unit</td>
-                                        <td>Free dryer In unit</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>55" HDTV with HBO Max, Hulu, premium cable, Roku</td>
-                                        <td>Central air conditioning</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>Bathtub</td>
-                                        <td>Security cameras on property</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <!-- Description -->
-                <div class="col-lg">
-                    <div class="card h-100  shadow rounded">
-
-                        <img src="images/png/little-bear-exterior.png" class="card-img-top"
-                            alt="An external shot of the Shady Pines location. A large A-frame cabin with deck, surrounded by trees.">
-
-                        <div class="card-body">
-
-                            <h4 class="card-title">Little Bear Cabin <span
-                                    class="badge position-relative top-0 end-0 text-bg-success">Short
-                                    &
-                                    Long Term Available!</span></h4>
-
-                            <p class="card-text">
-                                Indulge in the tranquility of escaping to the pines without giving up the comforts of
-                                home.
-                                This 2 bed, 2
-                                bath cabin is situated on a wooded acre nestled in the Lakeside Summer Homes community
-                                surrounded by
-                                pine trees.
-                            </p>
-                            <p class="card-text">
-                                Snuggle up next to the wood-burning fireplace and enjoy the mountain sights and smells
-                                from
-                                the front porch.
-                            </p>
-                            <p class="card-text"> Enjoy nature's beauty while being close to restaurants, shopping,
-                                golfing,
-                                and
-                                activities like horseback riding and skiing.</p>
-
-                        </div>
-
-                        <div class="card-footer text-center">
-                            <!-- Amenities -->
-
-                            <button class="btn btn-green" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#lb-amenities" aria-expanded="false" aria-controls="contentId">
-                                Show Amenities
-                            </button>
-
-                        </div>
-                        <div class="p-2 card-links">
-                            <a class="card-link" href="https://www.airbnb.com/rooms/48397659">Airbnb</a>
-                            <a class="card-link" href="https://www.vrbo.com/2302987">Vrbo</a>
-                        </div>
-                        <div class="table-responsive collapse" id="lb-amenities">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" colspan="3">What we offer:</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="">
-                                        <td>Mountain view</td>
-                                        <td>Kitchen</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>Wifi</td>
-                                        <td>Free parking on premises</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>Private patio or balcony</td>
-                                        <td>Free washer/dryer in unit</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>TV</td>
-                                        <td>Central air conditioning</td>
-                                    </tr>
-                                    <tr class="">
-                                        <td>
-                                            Essentials
-                                            <p class="text-muted small">Towels, bed sheets, soap, and toilet paper
-                                            </p>
-                                        </td>
-                                        <td>Security cameras on property</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
 
         <!-- TODO: Update Vrbo/Airbnb links -->
         <!-- Litchfield Park -->
-        <section class="container-fluid panel">
-            <h3 class="display-5 locHeading" id="lpHeading">Old Litchfield Park
+        <section class="panel">
+            <h3 class="display-4 locHeading d-flex justify-content-between" id="lpHeading">Old Litchfield Park
                 <span>
                     <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#lpMap"
                         aria-expanded="false" aria-controls="lpMap">
