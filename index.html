@@ -20,43 +20,44 @@
 <!-- https://getbootstrap.com/docs/5.3/helpers/ratio/ -->
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <span class="material-symbols-outlined">
-                    home
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
-                <span class="material-symbols-outlined map-icon">
-                    menu
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#pineHeading">Pinetop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link link-light" href="#lpHeading">Litchfield Park</a>
-                    </li>
-                </ul>
+                    <span class="material-symbols-outlined map-icon">
+                        menu
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#pineHeading">Pinetop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light" href="#lpHeading">Litchfield Park</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
 
     <main class="container-fluid">
         <section class="panel">
             <h3 class="display-4 locHeading d-flex justify-content-between" id="pineHeading">Pinetop-Lakeside
-                <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#pinetopMap"
+                <!-- <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#pinetopMap"
                     aria-expanded="false" aria-controls="pinetopMap">
                     <span class="material-symbols-outlined map-icon">
                         map
                     </span>
-                </button>
+                </button> -->
             </h3>
             <!-- <div class="collapse" id="pinetopMap">
                 <iframe class="map shadow" width="100%" height="450" loading="lazy" allowfullscreen
@@ -247,10 +248,7 @@
                     </button>
                 </span>
             </h3>
-            <div class="collapse" id="lpMap">
-                <iframe class="map shadow" width="100%" height="450" loading="lazy" allowfullscreen
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJU8fvjgE6K4cR56m-W2k8Gsg&key=AIzaSyCe74KSNaGnsKigeWq1UJ1eFDt3gbESEGk"></iframe>
-            </div>
+
             <div class="row">
                 <!-- ROOM CARDS -->
 
@@ -258,13 +256,6 @@
                 <div class="col-lg">
                     <div class="card h-100 shadow rounded">
                         <img src="images/png/lp-queen.png" class="card-img-top" alt="...">
-                        <!-- <div class="airbnb-embed-frame " data-id="4729587" data-view="home" style="width: 100%;"><a
-                                href="https://www.airbnb.com/rooms/4729587?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">View
-                                On Airbnb</a><a
-                                href="https://www.airbnb.com/rooms/4729587?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget"
-                                rel="nofollow">Home in Litchfield Park · ★5.0 · 1 bedroom · 1 bed · 1 shared bath</a>
-                            <script async="" src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script>
-                        </div> -->
                         <div class="card-body">
                             <h5 class="card-title">Cozy Queen</h5>
                             <p class="card-text">This bedroom easily accommodates up to two guests in its comfortable
@@ -308,7 +299,16 @@
                         </div>
                     </div>
                 </div>
-
+                <button class="btn btn-map" type="button" data-bs-toggle="collapse" data-bs-target="#lpMap"
+                    aria-expanded="false" aria-controls="lpMap">
+                    <span class="material-symbols-outlined map-icon">
+                        map
+                    </span>
+                </button>
+            </div>
+            <div class="collapse" id="lpMap">
+                <iframe class="map shadow" width="100%" height="450" loading="lazy" allowfullscreen
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJU8fvjgE6K4cR56m-W2k8Gsg&key=AIzaSyCe74KSNaGnsKigeWq1UJ1eFDt3gbESEGk"></iframe>
             </div>
         </section>
     </main>
